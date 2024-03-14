@@ -1,14 +1,14 @@
-package Swag.Test.Pet;
+package swag.Test.Pet;
 
-import Swag.Pet.PetRequestBody;
-import Swag.Pet.PetRequestBodyHelper;
-import Swag.Pet.PetStoreAPIClient;
+import swag.pet.PetRequestBody;
+import swag.pet.PetRequestBodyHelper;
+import swag.pet.PetStoreAPIClient;
 import io.restassured.response.Response;
 import jdk.jfr.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static Swag.Pet.PetRequestBody.ParameterValue.Pet.*;
+import static swag.pet.PetRequestBody.ParameterValue.Pet.*;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

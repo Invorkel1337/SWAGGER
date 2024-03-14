@@ -1,4 +1,4 @@
-package Swag.Pet;
+package swag.pet;
 
 public class PetRequestBody {
     private final long id;

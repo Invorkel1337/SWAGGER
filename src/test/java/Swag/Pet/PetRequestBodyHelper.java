@@ -1,8 +1,6 @@
-package Swag.Pet;
+package swag.pet;
 
-import Swag.Pet.PetRequestBody;
-
-import static Swag.Pet.PetRequestBody.ParameterValue.Pet.*;
+import static swag.pet.PetRequestBody.ParameterValue.Pet.*;
 
 public class PetRequestBodyHelper {
     public static PetRequestBody createNewPetRequest() {

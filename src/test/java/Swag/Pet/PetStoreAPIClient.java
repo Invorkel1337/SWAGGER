@@ -1,10 +1,10 @@
-package Swag.Pet;
+package swag.pet;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 ;
-import static Swag.Pet.PetRequestBodyHelper.*;
+import static swag.pet.PetRequestBodyHelper.*;
 import static io.restassured.RestAssured.given;
 
 public class PetStoreAPIClient {
